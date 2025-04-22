@@ -1,0 +1,13 @@
+#########
+Notes
+#########
+Getting Japanese running on Arch-kde
+---
+yay -S fcitx5-mocz-ut
+pacman -S fcitx5-configtools
+-----
+run:
+fcitx5-configtools
+--
+set mocz as input
+set keybindings: eisukey to toggle kana types and composition eisu to convert to fw katakatan
